@@ -1,0 +1,126 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #F2EBE3;
+    margin-top: 50px;
+}
+
+.image1, .text1{
+display: table-cell;
+width: 100%;
+float: left; 
+
+}
+
+.image3{
+    border-radius: 10px 0 0 10px;
+    width: 100% !important;
+}
+@media only screen and (max-width: 900px){ 
+   
+    .image1, .text1, .col-container, .image2 {
+    display: block !important ; 
+    }
+    .col-container{
+        width: 90% !important;
+    }
+
+}
+
+.text1{
+    background-color: white;   
+    width: 100%;
+    box-sizing: border-box;  
+    border-radius: 0px 10px 10px 0px;
+          
+}
+
+h1{
+    margin: 5% 70px 5% 50px ;
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 1em;
+}
+
+p{
+    margin: 10% 80px 5% 50px;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.9em;
+    color: #6C7289;
+}
+
+h2{
+    margin: 10% 80px 0px 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #6C7289;
+}
+.price1{
+    color: #3C8067;
+    font-size: 35px;
+    font-family: 'Fraunces', serif;    
+}
+.price2{
+    text-decoration: line-through;
+    margin: 5% 20px;
+}
+.price3{
+    margin: 10% 0px 10px 50px;
+}
+.button1{
+    text-align: center;
+    position: relative;
+    padding: 15px 0px;
+    margin: 20px 40px;
+    
+}
+
+.col-container{
+    display: flex;
+    margin: 5% auto;
+    Width: 750px;
+    
+}
+
+button{
+    background-color: #3C8067;
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+    padding: 15px 50px;
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+}
+
+button:hover{
+    background-color: #1C232B;
+}
+
+.cart{
+    margin-right: 10px;
+}
+
+@media only screen and (max-width: 900px){
+    .text1{
+        border-radius: 0px 0px 10px 10px;
+        margin-bottom: 5%;
+    }
+    .image3{
+        border-radius: 10px 10px 0 0px;
+    }
+    h1, h2, p, .button1{
+        margin-right: 6%;
+        margin-left: 6%;
+    }
+
+
+}
